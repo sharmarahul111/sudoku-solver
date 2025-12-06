@@ -10,10 +10,7 @@ function setValue(x, y, val) {
 function setGrid(data) {
   data.forEach((row, i) => {
     row.forEach((col, j) => {
-      if (Array.isArray(col)) {
-        setValue(i, j, `<small>${col.join(",")}</small>`)
-      }
-      else if (col) setValue(i, j, col)
+      setValue(i, j, col.value)
 
     })
   });
