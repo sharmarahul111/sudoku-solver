@@ -22,12 +22,14 @@ section.main {
   background-color:#0cad75;
   color: white;
   padding: 5px;
+  flex-direction:column;
   
 }
 div.row {
-  display: inline-block;
+  display: inline-flex;
   height: 50px;
   width: 100%;
+  overflow:hidden;
 }
 div.col {
   display: flex;
@@ -40,10 +42,10 @@ div.col {
   border: 1px solid white;
 }
 div.col:nth-child(3), div.col:nth-child(6) {
-  border-bottom: 3px solid white;
+  border-right: 3px solid white;
   /* background: red; */
 }
 section  .row:nth-child(3), section .row:nth-child(6){
-  border-right: 3px solid transparent;
+  border-bottom: 3px solid white;
   /* background: red; */
 }
