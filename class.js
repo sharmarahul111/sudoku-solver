@@ -5,7 +5,7 @@ class Cell {
     this.x = x
     this.y = y
     this.value = this.grid[x][y] // 0-9
-    this.possibleValues = new Set()
+    this.possibleValues = new Set([1, 2, 3, 4, 5, 6, 7, 8, 9])
   }
   // get set of values in corresponding row
   get row() {

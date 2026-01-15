@@ -24,7 +24,7 @@ section.main {
   color: white;
   padding: 5px;
   flex-direction:column;
-  
+
 }
 div.row {
   display: inline-flex;
@@ -49,4 +49,9 @@ div.col:nth-child(3), div.col:nth-child(6) {
 section  .row:nth-child(3), section .row:nth-child(6){
   border-bottom: 3px solid white;
   /* background: red; */
+}
+.small {
+  font-size:9px;
+  /* overflow-wrap: break-word; */
+  /* word-break: break-all; */
 }
