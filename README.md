@@ -1,5 +1,12 @@
 # Sudoku Solver
 A sudoku solver and visualizer made in javascript
+
+### The plan (natural way)
+- solve a sudoku manually first to remember the fking rules!!!
+- exclusion (if X can't go in these, then only place left is this)
+- obvious duplets
+- obvious triplets
+- X-wing
 ## Checklist
 - UI ✅
 - Class for managing/accessing cell ✅
